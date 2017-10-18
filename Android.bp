@@ -49,9 +49,6 @@ cc_defaults {
 
     test_per_src: true,
     arch: {
-        mips: {
-            enabled: false,
-        },
         mips64: {
             enabled: false,
         },
@@ -72,6 +69,9 @@ cc_test {
             enabled: false,
         },
         arm64: {
+            enabled: false,
+        },
+        mips: {
             enabled: false,
         },
     },
@@ -256,6 +256,9 @@ cc_test {
             enabled: false,
         },
         arm64: {
+            enabled: false,
+        },
+        mips: {
             enabled: false,
         },
         x86: {
